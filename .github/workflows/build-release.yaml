@@ -106,7 +106,7 @@ jobs:
 
       - name: Release Build
         if: success()
-        run: bash ./gradlew --no-daemon app:assembleMetaRelease
+        run: bash ./gradlew --no-daemon -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true app:assembleMetaRelease
 
       - name: Tag Repo
         uses: richardsimko/update-tag@v3

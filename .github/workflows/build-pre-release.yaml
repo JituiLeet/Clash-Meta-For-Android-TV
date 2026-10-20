@@ -64,7 +64,7 @@ jobs:
 
       - name: Pre-release Build
         if: success()
-        run: bash ./gradlew --no-daemon app:assembleAlphaRelease
+        run: bash ./gradlew --no-daemon -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true app:assembleAlphaRelease
 
       # Delete old Prerelease-alpha
       - uses: dev-drprasad/delete-tag-and-release@v1.1

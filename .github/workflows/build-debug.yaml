@@ -64,7 +64,7 @@ jobs:
 
       - name: Build
         if: success()
-        run: bash ./gradlew --no-daemon app:assembleAlphaRelease
+        run: bash ./gradlew --no-daemon -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true app:assembleAlphaRelease
           
       - name: Upload Aritfact (universal)
         uses: actions/upload-artifact@v7
