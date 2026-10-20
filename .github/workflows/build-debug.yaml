@@ -1,11 +1,6 @@
 name: Build Debug
 on:
-  pull_request:
-    types: [opened, reopened, synchronize]
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   BuildDebug:
@@ -69,7 +64,7 @@ jobs:
 
       - name: Build
         if: success()
-        run: ./gradlew --no-daemon app:assembleAlphaRelease
+        run: bash ./gradlew --no-daemon app:assembleAlphaRelease
           
       - name: Upload Aritfact (universal)
         uses: actions/upload-artifact@v7
