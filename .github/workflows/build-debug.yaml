@@ -15,6 +15,14 @@ jobs:
       - name: Checkout submodules
         run: git submodule update --init --recursive --force
 
+      # The repository contains the submodule declaration but may not contain
+      # its gitlink in some imported source archives. Ensure the Go module exists.
+      - name: Ensure Mihomo source
+        run: |
+          if [ ! -f core/src/foss/golang/clash/go.mod ]; then
+            git clone --depth 1 --branch Alpha https://github.com/MetaCubeX/mihomo core/src/foss/golang/clash
+          fi
+
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
