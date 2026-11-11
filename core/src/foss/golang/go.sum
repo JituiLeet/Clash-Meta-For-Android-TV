@@ -325,3 +325,7 @@ gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 software.sslmate.com/src/go-pkcs12 v0.4.0 h1:H2g08FrTvSFKUj+D309j1DPfk5APnIdAQAB8aEykJ5k=
+github.com/metacubex/sing v0.5.9 h1:R4JVFIHnkbRsvvrZs/sYAdoZ9K/P6DqlD8ZoSQAejFs=
+github.com/metacubex/sing v0.5.9/go.mod h1:ynXUNwUt4dfOFO805EWzw3ORmNWXoexziwn5XYCfsq8=
+github.com/metacubex/sing-tun v0.4.29 h1:KIULEuW0iFXxLegOgrW8orq5Sx4TCBBhwo6j8+CIFBs=
+github.com/metacubex/sing-tun v0.4.29/go.mod h1:eCWMOzQLc804EJBORaOxUOHzqTjb8qbCnO2tbsQF1vA=
