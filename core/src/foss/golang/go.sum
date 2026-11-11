@@ -329,3 +329,5 @@ github.com/metacubex/sing v0.5.9 h1:R4JVFIHnkbRsvvrZs/sYAdoZ9K/P6DqlD8ZoSQAejFs=
 github.com/metacubex/sing v0.5.9/go.mod h1:ynXUNwUt4dfOFO805EWzw3ORmNWXoexziwn5XYCfsq8=
 github.com/metacubex/sing-tun v0.4.29 h1:KIULEuW0iFXxLegOgrW8orq5Sx4TCBBhwo6j8+CIFBs=
 github.com/metacubex/sing-tun v0.4.29/go.mod h1:eCWMOzQLc804EJBORaOxUOHzqTjb8qbCnO2tbsQF1vA=
+github.com/enfein/mieru/v3 v3.39.0 h1:22WJN9i7I4FrY1cTAVp5KfKOFm4sWrXVOXhqf5fkdr8=
+github.com/enfein/mieru/v3 v3.39.0/go.mod h1:zJBUCsi5rxyvHM8fjFf+GLaEl4OEjjBXr1s5F6Qd3hM=
